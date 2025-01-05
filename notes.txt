@@ -4,3 +4,8 @@ Updates:
 
 - Fixed footers
 - Home page embellishments and working links
+
+Updates 2:
+
+- Check the stats for each of the 2 new motors
+- Fix images for 2 new motors
