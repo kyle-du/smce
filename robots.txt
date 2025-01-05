@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:/templates/
+Disallow:/self_define/include/
+Disallow:/wap/include/
+Disallow:/css/VNew/web_style/
+Disallow:/self_define/TJStyle.php
+Disallow:/login_manage.php

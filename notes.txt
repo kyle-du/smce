@@ -1,0 +1,6 @@
+2415 is both brushless and geared.
+
+Updates:
+
+- Fixed footers
+- Home page embellishments and working links
