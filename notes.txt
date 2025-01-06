@@ -9,3 +9,4 @@ Updates 2:
 
 - Check the stats for each of the 2 new motors
 - Fix images for 2 new motors
+- Check names of motor categories
