@@ -1,6 +1,13 @@
-@charset "gbk";
+@charset "utf-8";
 
 /* CSS Document */
+
+div.customModuleRowInner2 {
+		margin: 0 0;
+    position: relative;
+    z-index: 2;
+}
+
 .nav_1000 .NMainBg {
 	height: 80px;
 }
@@ -42,7 +49,7 @@
 }
 
 .nav_1000 .NItemM a {
-	font-family: 微软雅黑;
+font-family: auto;
 }
 
 .nav_1000 .NItemM a {
@@ -86,7 +93,7 @@
 }
 
 .nav_1000 .NItemH .NItemM a {
-	font-family: 微软雅黑;
+	font-family: auto;
 }
 
 .nav_1000 .NItemH .NItemM a {
@@ -130,7 +137,7 @@
 }
 
 .nav_1000 .NItemCur .NItemM a {
-	font-family: 微软雅黑;
+	font-family: auto;
 }
 
 .nav_1000 .NItemCur .NItemM a {
@@ -258,7 +265,7 @@
 }
 
 #nav .NItemM a {
-	font-family: 微软雅黑;
+font-family: auto;
 }
 
 #nav .NItemM a {
@@ -302,7 +309,7 @@
 }
 
 #nav .NItemH .NItemM a {
-	font-family: 微软雅黑;
+font-family: auto;
 }
 
 #nav .NItemH .NItemM a {
@@ -346,7 +353,7 @@
 }
 
 #nav .NItemCur .NItemM a {
-	font-family: 微软雅黑;
+font-family: auto;
 }
 
 #nav .NItemCur .NItemM a {
@@ -538,7 +545,7 @@
 }
 
 #footer .footerCon {
-	font-family: 微软雅黑;
+font-family: auto;
 }
 
 #footer .footerCon {
@@ -606,7 +613,7 @@
 }
 
 #row_32 {
-	background-color: #FFFFFF;
+	background-color: #203E84;
 }
 
 #row_32 {
@@ -665,10 +672,10 @@
 
 #row_37 {
   background-image: url(https://aimg8.dlssyht.cn/u/2283786/ev_user_module_content_tmp/2024_09_06/tmp1725571031_2283786_s.png);
-  background-position: left center;
+  background-position: top left;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: 75% 66%;
+  background-size: auto 55%;
   margin-top:84px;
   margin-bottom:0px;
 }
