@@ -7,6 +7,7 @@
     <meta name="applicable-device" content="pc" />
         <title>KNOWLEDGE_smartcore</title>
     <meta name="keywords" content="KNOWLEDGE,smartcore" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
     <meta name="description" content="smartcoreProvidedKNOWLEDGE,AndKNOWLEDGERelated Information." />
     <meta name="author" content="smartcore" />
 
@@ -22,6 +23,15 @@
             <script src="https://s.dlssyht.cn/plugins/public/js/jquery-1.7.1.min.js"></script>
             	<link rel="icon" href="https://aimg8.dlssyht.cn/u/2283786/user_icon/48_48/2283786/9282/18562254_1728970923.png?t=1526" mce_href="https://aimg8.dlssyht.cn/u/2283786/user_icon/48_48/2283786/9282/18562254_1728970923.png?t=1526" type="image/x-icon" />
 	<link rel="shortcut icon" href="https://aimg8.dlssyht.cn/u/2283786/user_icon/48_48/2283786/9282/18562254_1728970923.png?t=1526" mce_href="https://aimg8.dlssyht.cn/u/2283786/user_icon/48_48/2283786/9282/18562254_1728970923.png?t=1526" type="image/x-icon" />
+            <style>
+        /* Default styling for the div */
+        #myDiv {
+            width: 100%;
+            height: 0px; /* Default height */
+            background-color: white;
+            transition: height 0.5s ease; /* Smooth transition for height change */
+        }
+    </style>
 
 <script type="text/javascript" src="https://s.dlssyht.cn/Language/En/Language.js?202412181635"></script>            
     </head>
@@ -528,6 +538,26 @@
             </div>
             <div class="footerBg"></div>
         </div>
+                <div id="myDiv"></div>
+            <script>
+        // Function to adjust the height of the div based on the device
+        function adjustDivHeight() {
+            const myDiv = document.getElementById('myDiv');
+            if (window.matchMedia('(max-width: 768px)').matches) {
+                // If the device is similar to mobile, set height to 1300px
+                myDiv.style.height = '1300px';
+            } else {
+                // For larger devices, reset height to default
+                myDiv.style.height = '0px';
+            }
+        }
+
+        // Call the function initially
+        adjustDivHeight();
+
+        // Add an event listener to handle screen resize
+        window.addEventListener('resize', adjustDivHeight);
+    </script>
     
     <script type="text/javascript">
     $("body").attr('id','webBody');
