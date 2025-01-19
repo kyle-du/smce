@@ -1,0 +1,276 @@
+@import url("/css/iconimgSkin/blue/iconStyle.css");
+@charset "gb2312";
+/* CSS Document */
+/* Date:2012-12-14;
+	author:qwguo;
+	purpose: setting the basic color of the template;
+*/
+/*---------------About the style of the module's rounded corners, if the design drawing is a rounded corner setting------------------*/
+/*------Basic style of rounded corners for first-level columns-------------*/
+.mapC{background:#fff;}
+.WebC_1{background:#fff;}/**Level 1 column module**/
+  .WebC_1 .WebCT,.WebC_1 .WebCB{margin:0px 4px;}/**Top and bottom margins of each level column**/
+	.WebC_1 .WebCTM,.WebC_1 .WebCBM{height:0px; overflow:hidden;display:none;}/**Top and bottom borders of each level column**/
+	.WebC_1 .WebCTM{background-position:0 0;}/**--Top line background positioning--**/
+	.WebC_1 .WebCBM{background-position:0 -15px; border-bottom:1px solid #91e2d9; height:3px; background-color:#fff;}/**--Bottom line background positioning--**/
+	.WebC_1 .WebCTL,.WebC_1 .WebCTR,.WebC_1 .WebCBL,.WebC_1 .WebCBR{height:4px; width:4px; margin-top:-4px;display:none;}/**Four corners of each level column**/
+	  .WebC_1 .WebCTL{background-position:0 0;}/**--Upper left corner background positioning--**/
+	  .WebC_1 .WebCTR{background-position:-4px 0px;}/**--Upper right corner background positioning--**/
+	  .WebC_1 .WebCBL{background-position:0 -4px;}/**--Lower left corner background positioning--**/
+	  .WebC_1 .WebCBR{background-position:-4px -4px;}/**--Lower right corner background positioning--**/
+  .WebC_1 .WebCML,.WebC_1 .WebCMR{background-repeat:repeat-y; width:15px; display:none;}/**Left and right borders of the first-level column**/
+	.WebC_1 .WebCML{background-position:0 0;}/**--Left line background positioning--**/
+	.WebC_1 .WebCMR{background-position:-15px 0;}/**--Right line background positioning--**/
+  .WebC_1 .WebCMM{margin:0px 0px;}/**First-level column content area**/
+/*------Basic settings for rounded corners of secondary columns--------------*/
+.WebC_2{}/**Secondary column module**/
+  .WebC_2 .WebCT,.WebC_2 .WebCB{margin:0px 3px; }/**Secondary column upper and lower margins**/
+	.WebC_2 .WebCTM,.WebC_2 .WebCBM{background-color:#fff; height:2px; overflow:hidden;display:none;}/**Secondary column upper and lower borders**/
+	.WebC_2 .WebCTM{background-position:0 0; border-top:1px solid #A1E7DC;}/**--Top line background positioning--**/
+	.WebC_2 .WebCBM{background-position:0 -3px;border-bottom:1px solid #A1E7DC;}/**--Bottom line background positioning--**/
+	.WebC_2 .WebCTL,.WebC_2 .WebCTR,.WebC_2 .WebCBL,.WebC_2 .WebCBR{background-repeat:no-repeat; height:3px; width:3px; margin-top:-3px;display:none;}/**Four corners of the secondary column**/
+	  .WebC_2 .WebCTL{background-position:0 0;}/**--Upper left corner background positioning--**/
+	  .WebC_2 .WebCTR{background-position:-3px 0px;}/**--Upper right corner background positioning--**/
+	  .WebC_2 .WebCBL{background-position:0 -3px;}/**--Lower left corner background positioning--**/
+	  .WebC_2 .WebCBR{background-position:-3px -3px;}/**--Lower right corner background positioning--**/
+  .WebC_2 .WebCML,.WebC_2 .WebCMR{width:2px; background-color:#fff;display:none;}/**Left and right margins of the secondary column**/
+	.WebC_2 .WebCML{background-position:0 0;border-left:1px solid #A1E7DC;}/**--Left line background positioning--**/
+	.WebC_2 .WebCMR{background-position:-4px 0;border-right:1px solid #A1E7DC;}/**--Right line background positioning--**/
+  .WebC_2 .WebCMM{ /*margin:0px 2px;*/ background-color:#fff; zoom:1;}/**Secondary column content area**/
+
+/*---------------About the basic style settings of the module------------------*/
+/*------Basic settings for the first level column--------------*/
+  .WebC_1 .WebCMM{border:1px solid #E0DFDD;}/**--First level column--**/
+	.WebC_1_TitleArea,.WebC_1_Title{}/**--First-level column title--**/
+	.WebC_1_TitleArea{background-color:#2090FF; border-bottom:1px solid #efece7;}/**First-level column module title**/
+	.WebC_1_Title{height:35px;}
+
+	.WebC_1_Con{color:#5a5a5a;}/**--First-level column module body--**/
+	.WebC_1_Title .FC_Tit1{font:700 14px/35px "Microsoft YaHei"; margin-left:10px;}
+	.WebC_1_Title .FC_Tit1_more{line-height:35px;}
+  /*--First-level column title text--*/
+	.FC_Tit1,.FC_Tit1 a{color:#FFf;}/**First-level column title text color**/
+	  .FC_Tit1 a:hover{color:#2090FF;}/**First-level column title text mouse over color**/
+	.FC_Tit1_more{color:#FFf;}/**More colors for first-level column titles**/
+	  .FC_Tit1_more:hover{color:#2090FF; text-decoration:underline;}/**First-level column title more text mouse over color**/
+	.FC_Tit1_a{color:#444;}/**First-level column title link text color**/
+	  .FC_Tit1_a:hover{color:#2090FF; text-decoration:underline;}/**First-level column title link text mouse over color**/
+	.FC_Con1{color:#555555;}/**The text color of the first-level column**/
+	.FC_Con1_more{color:#FFf;}/**More text colors for the first-level column**/
+	  .FC_Con1_more:hover{color:#2090FF;}/**The color of the mouse over the content of the first-level column**/
+	  
+/*------Basic settings for secondary columns without rounded corners--------------*/
+  .WebC_2 .WebCMM{border:1px solid #E0DFDD;}/**Secondary column module**/
+	.WebC_2_TitleArea,.WebC_2_Title{}
+	.WebC_2_TitleArea{color:#444; background-color:#2090FF; }/**Secondary column module title**/
+	.WebC_2_Title{ color:#5a5a5a; position:relative; height:35px;}
+	.WebC_2_Con{color:#555;}/**Secondary column module**/
+	.WebC_2_Title{line-height:32px;}
+	.WebC_2_Title .FC_Tit2{font:700 14px/35px "Microsoft YaHei"; margin-left:10px; float:left;}
+	.WebC_2_Title .FC_Tit2_more{ margin-right:10px;float:right;}
+  /*--Secondary column title--*/
+	.FC_Tit2,.FC_Tit2 a{color:#FFf;}/**Secondary column title text color**/
+	.FC_Tit2 a:hover{color:#FFf;text-decoration:underline;}/**The color of the secondary column title text when the mouse is over**/
+	.FC_Tit2_more{color:#FFf;}/**More colors for secondary column titles**/
+	  .FC_Tit2_more:hover{color:#FFf;}/**Secondary column title more text mouse over color**/
+	.FC_Tit2_a{color:#FFf;}/**Secondary column title text color**/
+	  .FC_Tit2_a:hover{color:#FFf;}/**The text color of the secondary column title when the mouse is over**/
+	.FC_Con2{color:#444;}/**Text color of the second column**/
+	  .FC_Con2_more{color:#FFf;}/**More text colors for the secondary column**/
+		.FC_Con2_more:hover{color:#FFf;}/**The color of the mouse over the content of the secondary column**/
+
+/*------Basic settings for level 3 columns without rounded corners--------------*/
+  .WebC_3{border:0px solid #d5d5d5;}/**Third level column module**/
+  .WebC_3_TitleArea,.WebC_3_Title{}
+	.WebC_3_Title{border-bottom:2px solid #ccc; height:32px; position:relative; line-height:32px;color:#444;}/**Title of the third-level column module**/
+	.WebC_3_Con{color:#555;}/**Third level column module**/
+	.WebC_3_Title .FC_Tit3{ position:absolute; left:0px; bottom:-2px; border-bottom:2px solid #2090FF; padding:0px 10px; font-size:14px;}
+  /*--Level 3 column title--*/
+  .FC_Tit3,.FC_Tit3 a{color:#2090FF;}/**Level 3 column title text color**/
+  .FC_Tit3 a:hover{color:#2090FF;}/**Level 3 column title text mouse over color**/
+  .FC_Tit3_more{color:#2090FF;}/**More colors for the third-level column title**/
+	.FC_Tit3_more:hover{color:#2090FF;}/**Level 3 column title more text mouse over color**/
+  .FC_Tit3_a{color:#555;}/**Level 3 column title text color**/
+	.FC_Tit3_a:hover{color:#2090FF;}/**The color of the text when the mouse is over the third-level column title**/
+  .FC_Con3{color:#555;}/**Text color under the third level column**/
+	.FC_Con3_more{color:#2090FF;}/**More text color for the third level column**/
+	  .FC_Con3_more:hover{color:#2090FF;}/**Color of the mouse over the content of the third-level column**/
+/*------Basic settings for level 4 columns without rounded corners--------------*/
+  .WebC_4{border:1px solid #E0DFDD;}/**Fourth level column module**/
+	.WebC_4_TitleArea{border-bottom:1px solid #E0DFDD; background-color:#2090FF;}/**Fourth level column module title**/
+	.WebC_4_Title{height:30px; line-height:30px; padding-left:10px;}
+	.WebC_4_Con{ color:#5a5a5a;}/**Fourth level column module**/
+	.WebC_4_Title .FC_Tit4{font-size:14px;}
+  /*--Fourth level column title--*/
+  .FC_Tit4,.FC_Tit4 a{color:#fff;}/**Level 4 column title text color**/
+  .FC_Tit4 a:hover{color:#CB0A0A;}/**Level 4 column title text mouse over color**/
+  .FC_Tit4_more{color:#5a5a5a;}/**More colors for level 4 column titles**/
+	.FC_Tit4_more:hover{color:#A50409;}/**Level 4 column title more text mouse over color**/
+  .FC_Tit4_a{color:#666;}/**Level 4 column title text color**/
+	.FC_Tit4_a:hover{color:#A50409;}/**Level 4 column title text color when the mouse is over**/
+  .FC_Con4{color:#5a5a5a;}/**Text color under the fourth level column**/
+	.FC_Con4_more{color:#A50409;}/**More text colors for content under the fourth level column**/
+	  .FC_Con4_more:hover{color:#CB0A0A;}/**Color of more text under the fourth level column when the mouse is over**/
+	  
+/*-----------------Internal tab style--------------*/
+ .Inner_Tab{border:1px solid #E0DFDD;}/**Border of inner tab**/
+  .Inner_Tab .Inner_Tab_tit{background:#2090FF; color:#555; border-color:#2090FF;}/**Inner page tab title**/
+  .Inner_Tab_tit .FC_tab_t{color:#FFf;}
+  .Inner_Tab_tit li{border-color:#FFf; border-width:0px 0px 0 0px;}/*--tab label item--*/
+  .Inner_Tab_tit li.first{}
+  .Inner_Tab_tit li a{color:#FFf;}/*--tab item selected state--*/
+	.Inner_Tab_tit li a:hover{text-decoration:underline; color:#FFf;}  
+	.Inner_Tab_tit li.cur{background-color:#fff; border-color:#2090FF;}/*--tab item selected state--*/
+	  .Inner_Tab_tit li.cur a{font-weight:800; color:#2090FF;}/*--tab item selected status text--*/
+	.Inner_Tab_con{background-color:#fff;}/**tab content area**/
+	.Inner_Tab_con{color:#55555;}/**Default color of text in tab content area**/
+
+
+/*-------------Styles related to form elements-----------------*/
+  .FC_label{color:#444;}/**Text on the left side of the input box**/
+  .FC_Star{color:#c00;}/**Stars are required in the form**/
+  .FC_TxtInput{color:#000; border:1px solid #aaa; background-color:#fff;}/**Input field border, background color and text color**/
+	.FC_TxtInputErr{border:1px solid #c00;}/**Input field error prompt border and background color**/
+	.FC_TxtInputRight{border:1px solid #00c;}/**Correct border and background color of input field**/
+  .FC_TxtArea,textarea{color:#000;border-color:#aaa; background-color:#fff;}/**Enter the border, background color and text color of the text area**/
+  .FC_normal{color:#000;}
+  .FC_err{color:#c00;}/**Input error text prompt**/
+  .FC_right{color:#00c;}/**Enter the correct text prompt**/
+  .FC_good{color:#008000;}/**Good prompt text color**/
+  .FC_bad{color:#c00;}/**Bad prompt text color**/
+
+/**------------------Basic style of inner page table------------------**/
+.DetailTable table,.DetailTable th,.DetailTable td{border-color:#E0DFDD;}
+.DetailTable th{background-color:#F5FAFC;}
+.DetailTable td{background-color:#fff;}
+
+
+/*----------------Some styles about lists-----------------*/
+  /*-------List appearance style-------*/
+ .P_ListItem_1{/*background-color:#fff;*/ color:#5a5a5a; border-color:#eee;}/**Graphic list item style-1**/
+  .P_ListItem_1:hover,.P_ListItem_1_hover{/*background-color:#fff;*/}/**Color of the image and text list item when the mouse passes over it -1**/
+ .P_ListItem_2{/*background-color:#fff;*/ color:#5a5a5a; border-color:#eee;}/**Graphic list item style-2**/
+  .P_ListItem_2:hover,.P_ListItem_2_hover{background-color:#F5FAFC; border-color:#2090FF;}/**Color of the image and text list item when the mouse passes over it -2**/
+ .T_ListItem_1{/*background-color:#fff;*/ border-color:#eee;}/**Text list item style-1**/
+  .T_ListItem_1:hover,.T_ListItem_1_hover{/*background-color:#fff;*/}/**Text list item mouse over color -1**/
+ .T_ListItem_2{/*background-color:#fff;*/ border-color:#eee;}/**Text list item style-2**/
+  .T_ListItem_2:hover,.T_ListItem_2_hover{background-color:#F5FAFC; border-color:#2090FF;}/**Text list item mouse over color -2**/
+  
+  /*-------List internal style--------*/
+  /*---Text list---*/		
+  .Tlist_Icon{font-family:"宋体";}
+  .FC_LT,.FC_LT_a{color:#444;}/**List a connection color**/
+	.FC_LT_a:hover{color:#2090FF;}/**List a connection color**/
+  .FC_LT_time{color:#666;}/**Time on the right side of the list**/
+  
+  /*---Picture and text list---*/
+  .Pic_box{border:solid #ddd 1px;}/**-Product image border-**/
+  .Pic_box_cur{border-color:#2090FF;}
+  .FC_PicName,.FC_PicName a{color:#444; font-weight:bold;}/**Picture name text color**/
+	.FC_PicName a:hover{color:#2090FF;}/**Picture name text color**/
+  .FC_Piclabel{color:#999;}/**Image label text color**/
+  .FC_PicPrice_n{color:#FF1F00;}/**New price text color of the picture**/
+  .FC_PicPrice_o{color:#ccc; text-decoration:line-through;}/**Old price text color**/
+  .FC_PicSummary{color:#666;}/**Picture summary text color**/
+  .FC_PicMore_a{color:#2090FF;}/**Picture more text color**/
+  .FC_PicMore_a:hover{color:#2090FF;}/**Picture More text mouse over color**/
+  
+  /*---Category classification appearance style---*/		
+  .Class_list{border-color:#E0DFDD; /*background-color:#fff;*/}/**Category list style**/
+	.Class_list:hover,.Class_list_hover{background-color:#F5FAFC;}/**Category mouse over list style**/
+
+  /*-Major category text color-*/
+  .FC_BigClass{border-color:#E0DFDD;}
+  .FC_BigClass,.FC_BigClass_a,.FC_BigClass a{color:#2090FF;}/**Big class text color**/
+		.FC_BigClass_a:hover,.FC_BigClass a:hover{color:#2090FF;text-decoration:underline;}/**Big class text color when the mouse is over**/
+  .FC_BigClass a.more{color:#2090FF;}
+		.FC_BigClass a.more:hover{color:#2090FF;}
+  /*-Small category text color-*/
+  .FC_SmallClass,.FC_SmallClass_a,.FC_SmallClass a{color:#444;}
+		.FC_SmallClass_a:hover,.FC_SmallClass a:hover,.FC_SmallClass_a_cur,.FC_SmallClass a.cur{color:#2090FF;}
+  .FC_SmallClass a.more{color:#666;}
+		.FC_SmallClass a.more:hover{color:#2090FF;}
+
+/*----------------Article final page style-----------------*/
+  /*-Article Title-*/
+  .FC_H1{color:#333;}/**Article title text color -1**/
+  .FC_H2{color:#333;}/**Article title text color -2**/
+  .FC_H3{color:#333;}/**Article title text color -3**/
+  .FC_H4{color:#333;}/**Article title text color -4**/
+  .FC_H5{color:#333;}/**Article title text color -5**/
+  .FC_H6{color:#333;}/**Article title text color -6**/
+  .articleAbstract{color:#ccc;}/*----Article Abstract----*/
+  
+  
+  /*--------Some prompt text colors--------*/
+  .FC_crumbs,.FC_crumbs a{color:#333;}/**Text color of breadcrumbs**/
+  .FC_crumbs a:hover{color:#2090FF;}/**Color of the link text under the breadcrumbs when the mouse is over**/
+  .FC_Prompt,.FC_Prompt_a{color:#888;}/**Basic prompt text color**/
+	.FC_Prompt_a:hover{color:#c00; text-decoration:underline;}/**Basic prompt text mouse over color**/
+  .FC_Number,.FC_Number_a{color:#999;}/**Number prompt text color**/
+	.FC_Number_a:hover{color:#c00;}/**Number prompt text mouse over color**/
+  .FC_Time,.FC_Time_a{color:#555;}/**Time prompt text color**/
+	  .FC_Time_a:hover{color:#333;}/**Time prompt text mouse over color**/
+  .FC_UserName,.FC_UserName a{color:#666;}/**Member name**/
+	.FC_UserName a:hover{color:#c00;}/**Member name mouse over**/
+  .FC_Cutline{color:#ccc;}/**Text vertical line color**/
+  .FC_Tcaption{color:#000;}/**Table header text color**/
+  .FC_Tcaption a{color:#2090FF;}/**Table header connection text color**/
+/*----------------Some styles about borders and background colors-----------------*/
+  .add_bd{border:1px solid #ddd;}/**Ad border color**/
+  .dashed_divide{ border-top:1px dashed #ddd;}/**dashed line color**/
+  .solid_divide{border-top:solid #ddd 1px;}/**Boundary solid line color**/
+  .prompt_area{border:1px solid #E0DFDD; background-color:#FFf;}/**Special prompt area style**/
+  .bgColor_1{background-color:#fff;}/**Prompt text area background -1**/
+  .bgColor_2{background-color:#eee;}/**Prompt text area background-2**/   
+  .outBorderColor{border-color:#ddd;}/**Outer border color**/
+
+/*---Site function menu style---*/
+.secondNavArea{
+	background-color:#2090FF;
+	border-color:#0881F7;
+	}
+  .secondNav a{color:#fff; }
+  .secondNav li.cur a,.secondNav li a:hover{
+	 /* background-position:0 -51px;
+	  background-repeat:no-repeat;*/
+	  background-color:#0881F7;
+	  color:#fff;
+	  }
+/*--Site function search style--*/
+.secondSearch form{border:1px solid #0881F7;background-color:#fff;}
+  .secondSearch .keyword{background-color:#fff;border-width:0 1px 0 0;border-style:solid;border-color:#ccc;font:700 14px/24px "Microsoft Yahei"; }
+  .secondSearch .submit{background-color:#0881F7; border:0px;color:#fff;font:100 14px/20px "arial";}
+
+/*--Left list sidebar style--*/
+.sidebar{margin:0px auto 10px; width:210px;}
+  .sidebarT,.sidebarB{display:none;}
+  .sidebarM{border:1px solid #E0DFDD;}
+  /*--Left list sidebar title style--*/
+  .sidebarTit{ height:35px;height:35px; white-space:nowrap; overflow:hidden; text-overflow:hidden; color:#FFf; font:700 14px/32px "Microsoft Yahei"; border-bottom:1px solid #E0DFDD; background-color:#2090FF;}
+	.sidebarTit strong{padding-left:20px;}
+  /*--Left list content style--*/
+  .sidebarCon{background-color:#fff;}
+	.sidebarList{}
+	  .sidebarListT,.sidebarListB,.sidebarListM{}
+		.sidebarListT,.sidebarListB{height:7px; overflow:hidden; display:none;}
+		.sidebarListT{}
+		.sidebarListB{background-position:0 -31px;}
+		.sidebarListM{background-position:-210px 0; width:200px; padding:0px 5px;}
+	.sidebarList dl{}
+	.sidebarList dt{border-bottom:1px dashed #edece7; height:32px; line-height:30px;font:700 12px/32px "宋体"; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; width :100%;}
+	.sidebarList dl.first dt{border-top:0;}
+	.sidebarList dt a{color:#444; margin-left:10px;}
+	.sidebarList dt a strong{font-weight:bold;}
+	.sidebarList dt a:hover,.sidebarList .cur dt a{color:#2090FF;}
+	.sidebarList dd{display:none; border-bottom:1px dashed #edece7}
+	.sidebarList .cur dd{display:block;}
+	.sidebarList li{width:200px; margin:0px auto; line-height:24px;overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+	.sidebarList li a{color:#555; margin-left:20px;}
+	.sidebarList li a:hover,.sidebarList li.hover a{color:#2090FF;}
+/**----The style of the lower left module-----**/
+	.WebLModule{border:1px solid #E0DFDD; margin-bottom:10px;}
+	  .WebLModule .TitleArea{ height:30px; border-bottom:1px solid #E0DFDD; background-color:#2090FF;}
+		.WebLModule .TitleArea strong{color:#FFf; font:bold 14px/30px "Microsoft YaHei"; margin-left:10px;}
+		.WebLModule .TitleArea strong a{color:#FFf;}
+	  .WebLModule .ConArea{background-color:#fff; padding:5px; line-height:1.5;}

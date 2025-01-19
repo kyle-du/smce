@@ -617,7 +617,7 @@ font-family: auto;
 }
 
 #row_32 {
-	background-image: url(https://aimg8.dlssyht.cn/u/2199597/ev_user_module_content_tmp/2022_08_24/tmp1661327708_2199597_s.png);
+	background-image: url(../images/mountain.png);
 }
 
 #row_32 {
@@ -658,20 +658,20 @@ font-family: auto;
 
 #row_35 {
   background-color: #FFFFFF;
-  background-image: url(https://aimg8.dlssyht.cn/u/2199597/ev_user_module_content_tmp/2022_08_24/tmp1661328599_2199597_s.png);
+  background-image: url(../images/city.png);
   background-position: top left;
   background-repeat: no-repeat;
 }
 
 #row_36 {
   background-color: #FFFFFF;
-  background-image: url(https://aimg8.dlssyht.cn/u/2199597/ev_user_module_content_tmp/2022_08_24/tmp1661330221_2199597_s.png);
+  background-image: url(../images/gears.png);
   background-position: top left;
   background-repeat: no-repeat;
 }
 
 #row_37 {
-  background-image: url(https://aimg8.dlssyht.cn/u/2283786/ev_user_module_content_tmp/2024_09_06/tmp1725571031_2283786_s.png);
+  background-image: url(../images/motor_array_bg_about.png);
   background-position: top left;
   background-repeat: no-repeat;
   background-attachment: scroll;
